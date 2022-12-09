@@ -1,11 +1,7 @@
 ﻿Console.WriteLine("Введите пятизначное число:");
-int number = int.Parse(Console.ReadLine()!);
+int number = Convert.ToInt32(Console.ReadLine());
 
 
-CheckPalindromicNumber(number);
- void CheckPalindromicNumber(int number)
-
-{
     if(number >= 10000)
     {
         int division1 = number / 10000;
@@ -25,5 +21,5 @@ CheckPalindromicNumber(number);
     }
     else
     Console.WriteLine("Введино неверное число!");
-}
+
  
