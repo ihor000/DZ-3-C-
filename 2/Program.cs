@@ -18,4 +18,4 @@ int C = z1 - z2;
 
 double length = Math.Sqrt(A * A + B * B + C * C);
 
-Console.WriteLine($"Длинна отрезка {length}");
+Console.WriteLine(length);
