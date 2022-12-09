@@ -20,6 +20,9 @@ int number = Convert.ToInt32(Console.ReadLine());
             
     }
     else
-    Console.WriteLine("Введино неверное число!");
+    {
+        Console.WriteLine("Введино неверное число!");
+    }
+   
 
  
